@@ -1,0 +1,18 @@
+body {
+	font-size: 1em;
+	line-height: 1.4;
+	font-family: "Raleway", Arial, sans-serif;
+	// Modernizer fallback for no supported fontface
+	.no-fontface & {
+		font-size: 1.05em;
+	}
+}
+
+::moz-selection {
+	background : $black;
+	text-shadow: none;
+}
+::selection {
+	background: $black;
+	text-shadow: none;
+}

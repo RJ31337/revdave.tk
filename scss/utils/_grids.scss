@@ -1,0 +1,21 @@
+[class*='column-'] {
+	float: left;
+	padding: 1em;
+	width: 100%;
+	min-height: 1px;
+}
+
+@media #{$desktop-breakpoint} {
+	
+	.wrapper {
+		width: 95%;
+		max-width: $grid-max-width;
+	}
+
+	@for $i from 1 through 20 {
+		.column-#{$i} {
+			width: 100% / $grid-columns * $i;
+		}
+	}
+
+}

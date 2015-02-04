@@ -1,3 +1,14 @@
+@import "susy";
+$total-columns: 20;
+$column-width: 3em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
+[class^="inner"] {
+ @include container;
+ @include susy-grid-background;
+}
+
 * {
 	@include bs(border-box);
 }

@@ -1,5 +1,18 @@
 @mixin bs($bs-type) {
 	-webkit-box-sizing: $bs-type;
-	-mox-box-sizing: $bs-type;
+	-moz-box-sizing: $bs-type;
 	box-sizing: $bs-type;
+}
+
+@mixin button-links($button-base: darken($colour11,10%),$button-hover: darken($colour11,15%)) {
+	border: 1px solid darken($colour11, 16%);
+	padding: .3em .6em;
+	margin-left: .7em;
+	@include border-radius(8px);
+	@include text-shadow(0 1px 2px $colour11);
+	color: lighten($colour10, 50%);
+	background-color: $button-base;
+	&:hover {
+		background-color: $button-hover;
+	}
 }

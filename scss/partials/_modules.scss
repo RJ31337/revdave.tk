@@ -37,18 +37,22 @@
 
 // Warning Box
 .warning-box {
-	@extend .box;
+	@extend %box;
 	border: 2px dotted $colour1;
 }
 
 // Success Box
 .success-box {
-	@extend .box;
+	@extend %box;
 	border: 2px dotted $colour4;
 }
 
 // Info Box
 .info-box {
-	@extend .box;
+	@extend %box;
 	border: 2px dotted $colour7;
+}
+
+.main-link {
+	@include button-links;
 }

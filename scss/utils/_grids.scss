@@ -5,17 +5,20 @@
 	min-height: 1px;
 }
 
-@media #{$desktop-breakpoint} {
-	
-	.wrapper {
-		width: 95%;
-		max-width: $grid-max-width;
-	}
+.wrapper {
+	width: 100%;
+	max-width: $grid-max-width;
+}
 
-	@for $i from 1 through 20 {
-		.column-#{$i} {
-			width: 100% / $grid-columns * $i;
-		}
+@for $i from 1 through $grid-columns {
+	.column-#{$i} {
+		width: 99% / $grid-columns * $i;
+		border: 1px solid $black;
+		margin: 1px;
 	}
+}
 
+.row{
+    display: table;
+    margin: 0 auto;
 }

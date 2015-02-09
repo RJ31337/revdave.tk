@@ -1,5 +1,6 @@
 body {
 	background: black;
+	color: #00cc00;
 }
 
 a {
@@ -10,5 +11,9 @@ a {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: #00cc00;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
 }

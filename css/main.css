@@ -1,7 +1,6 @@
 /**********************************
             GENERAL
 ***********************************/
-
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -12,23 +11,37 @@ a {
   text-decoration: none;
 }
 
-
-
 /**********************************
             HEADING
 ***********************************/
-
 #logo {
   text-align: center;
   margin: 0;
 }
 
+h1 {
+	margin: 15px 0;
+}
 
+/**********************************
+            FONTS
+***********************************/
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 1.75em;
+}
+
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
 /**********************************
 			COLOURS
 ***********************************/
-
 /* site body */
 body {
   background-color: #fff;

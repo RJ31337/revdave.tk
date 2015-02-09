@@ -126,6 +126,11 @@ h2 {
 	font-weight: normal;
 }
 
+h3 {
+	margin: 0 0 1em 0;
+	
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
